@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="https://kit.fontawesome.com/c45881edb2.js" crossorigin="anonymous"></script>
+	<title>One Page Site</title>
+</head>
+<body>
+	     <div class="to-top"><i class="fas fa-chevron-up"></i></div>
+		<div id="navbar" >
+			<div class="logo"><img src="assets/AI World.svg" height="150px" width="150px" alt="Logo Here"></div>
+			<div class="nabar_right_side">
+				<a href="#home">Home</a>
+				<a href="#project">Projects</a>
+				<a href="#pricing">Pricing</a>
+				<a href="#team">Team</a>
+				<a href="#blog">Blog</a>
+				<a href="#contact">Contact</a>
+				<div class="menu-icon">
+        <button id="menu"><i class="fas fa-bars"></i></button>
+      </div>
+				<button id="joinus"><span>Join Us</span></button>
+			</div>
+		</div>
+		<div class="menu-container" id="menu-container">
+      <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+    <div class="links">
+      	<a  class="link"  href="#home">Home</a>
+		<a class="link"  href="#project">Projects</a>
+		<a  class="link" href="#pricing">Pricing</a>
+		<a  class="link" href="#team">Team</a>
+		<a  class="link" href="#blog">Blog</a>
+		<a  class="link" href="#contact">Contact</a>
+    </div>
+      <div class="social-tags">
+        <a class="icon-personal" href=""><i class="fa fa-facebook-f"></i></a>
+         <a class="icon-personal" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a class="icon-personal" href=""><i class="fa fa-twitter"></i></a>
+           <a class="icon-personal" href=""><i class="fa fa-envelope"></i></a>
+            <a class="icon-personal" href=""><i class="fa fa-github"></i></a>
+      </div>
+</div>
+		<header>
+
+
+<div class="modal" id="myModal">
+	<span class="close">&times;</span>
+	<div class="container_login">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="" class="sign-in-form form">
+            <h2 class="title">Sign in</h2>
+             <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input class=".input" type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+           <!-- <p class="social-text">Or Sign in with social platforms</p>-->
+           
+          </form>
+          <form action="#" class="sign-up-form form">
+            <h2 class="title">Sign up</h2>
+             <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" class="btn" value="Sign up" />
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+             Sign Up in an instant and join 
+              us on a journey to the new world !
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="assets/login.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              Sign in and dive into new world !
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="assets/sign up.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+		<div class="ai_title">
+     <div class="main_logo"><img src="assets/ai.png" height="600" width="600"></div>
+     <div id="title">
+     	<h1>Automate Your Future With Us</h1>
+     	<h2>The key to artificial intelligence has always been the representation.</h2>
+     	<input id="input_header" type="text" name="search" placeholder="Enter your Query">
+     	<button class="search"><i class="fas fa-search" style="margin-right: 5px;"></i>Search</button>
+     	<img class="people" src="assets/people.png"/> <span class="along_people">and more riding with us.</span>
+     </div>
+
+ </div>
+	</header>
+
+	<div class="company">
+		<img src="assets/google.png"/>
+		<img src="assets/shopify.png"/>
+		<img src="assets/slack.png"/>
+		<img src="assets/dropbox.png"/>
+		<img src="assets/atlassian.png"/>
+	</div>
+	<div class="aboutus" id="home">
+		
+		<div class="aboutus_container ">
+			<div class="left_svg aboutsvg"><img src="assets/about1.svg"></div>
+			<div class="main_content">
+				<center><h1 style="font-size: 4rem;">Welcome!</h1></center>
+				<p class="about_para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis odio, repellendus excepturi in. Enim consequuntur voluptas dignissimos cupiditate alias ab voluptatem libero maxime cumque culpa, quod, assumenda doloribus et.</p>
+			</div>
+			<div class="right_svg aboutsvg">
+				<video height="250" width="250" autoplay loop> 
+				<source src="assets/about2.mp4" type="video/mp4"></video></div>
+		</div>
+
+
+		<div class="about_bottom">
+
+			<div class="bottom">
+			    	<i class="fas fa-bell"></i>
+					<h4>Lorem ispum</h4>
+					<p>Something to write about in the about section. And it should be lengthy to get more design and to look cool</p>
+					<button>Learn More</button>
+			</div>
+
+			<div class="bottom">
+			     	<i class="fas fa-envelope"></i>
+					<h4>Lorem ispum</h4>
+					<p>Something to write about in the about section. And it should be lengthy to get more design and to look cool</p>
+					<button>Learn More</button>
+			</div>
+
+			<div class="bottom">
+				    <i class="fas fa-calendar"></i>
+					<h4>Lorem ispum</h4>
+					<p>Something to write about in the about section. And it should be lengthy to get more design and to look cool</p>
+					<button>Learn More</button>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="project">
+		<h1>Projects</h1>
+		<div class="allprojects">
+			<h3>Hover on videos to play!</h3>
+			<div class="row">
+				<div class="column">
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div><video id="video1" class="video" loop  >
+						<source src="assets/video (1).mp4" type="video/mp4">
+
+					</video>
+				</div>
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div>
+
+							<img src="assets/project (3).jpg">
+					</div>
+				</div>
+				<div class="column">
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div>
+						<img src="assets/project (6).jpg">
+					</div>
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div>
+						<img src="assets/project (5).jpg">
+					</div>
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div>
+					  	<video id="video2" class="video" loop  >
+							<source src="assets/video (2).mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+				<div class="column">
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div>
+						<video id="video3" class="video" loop  >
+							<source src="assets/video (5).mp4" type="video/mp4">
+						</video>
+					</div>
+
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div>
+						<img src="assets/project (1).jpg">
+					</div>
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div>
+						<video id="video4" class="video" loop  >
+							<source src="assets/video (3).mp4" type="video/mp4">
+						</video>
+					</div>
+					
+				</div>
+				<div class="column">
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div>
+						<img src="assets/project (8).jpg">
+					</div>
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div>
+						<video id="video5" class="video" loop  >
+
+							<source src="assets/video (4).mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="container">
+						<div class="overlay">
+							<h2>Lorem Ispum</h2>
+							<button>Project Link</button>
+						</div>
+						<video class="video" loop id="video6"  >
+
+							<source src="assets/pexels-cottonbro-8721932.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div id="pricing">
+		<h1>Pricing</h1>
+		<div class="pricing">
+	   	<div class="basic pricing_table">
+	   		<h2>BASIC PLAN</h2>
+	   		<h3>Free</h3>
+	   		<ul>
+	   			<li>2 GB Memory</li>
+	   			<li>100 API calls daily</li>
+	   		</ul>
+	   		<button>Current</button>
+	   	</div>
+	   	<div class="gold pricing_table">
+	   		<h2>GOLD PLAN</h2>
+	   		<h3>10$/month.</h3>
+	   		<ul>
+	   			<li>50 GB Memory</li>
+	   			<li>5000 API calls dailyi</li>
+	   			<li>Free Domain</li>
+	   			<li>100 Courses</li>
+	   		</ul>
+	   		<button>Join Now</button>
+	   	</div>
+	   	<div class="premium pricing_table">
+	   		<h2>PREMIUM PLAN</h2>
+	   		<h3>50$/month</h3>
+	   		<ul>
+	   			<li>1 TB Memory</l>
+	   			<li>Unlimited API calls daily</l>
+	   			<li>Free Domain + SSl</li>
+	   			<li>All Courses</li>
+	   		</ul>
+	   		<button>Join Now</button>
+	   	</div>
+	</div>
+	</div>
+	</div>
+
+	<div id="team">
+		<div class="team_image">
+			<img src="assets/possibility.png" height="700" width="600"/>
+		</div>
+		<div class="team_details">
+			<h1 class="gradient__text">Our Team</h1>
+			<div class="team_member ">
+				<div class="member_image member1" ></div>
+				<div class="member_detail"><h2>Alex Gateman</h2>
+					<p>Project Manager, 5 years of experience.<br> Loves Coding.</p>
+				<div class="social_logo">
+							<a href="#"><i class="fab fa-facebook"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-snapchat"></i></a>
+						</div></div>
+			</div>
+            <div class="team_member">
+				<div class="member_image member2"></div>
+				<div class="member_detail"><h2>Mark Gunman</h2>
+					<p>Backend Expert, 4 years of experience.<br>Loves Coffee.</p>
+				<div class="social_logo">
+							<a href="#"><i class="fab fa-facebook"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-snapchat"></i></a>
+						</div></div>
+			</div>
+			<div class="team_member">
+				<div class="member_image member3"></div>
+				<div class="member_detail"><h2>Andrew Turing</h2>
+					<p>AI Expert, 5 years of experience.<br> Loves his machine.</p><div class="social_logo">
+							<a href="#"><i class="fab fa-facebook"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-snapchat"></i></a>
+						</div></div>
+			</div>
+			<div class="team_member">
+				<div class="member_image member4"></div>
+				<div class="member_detail"><h2>Sophia Sharma</h2>
+					<p>Frontend Expert, Intern.<br>Loves music.</p><div class="social_logo">
+							<a href="#"><i class="fab fa-facebook"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-snapchat"></i></a>
+						</div></div>
+			</div>
+		</div>
+	</div>
+
+     <div class='blog section__padding' id='blog'>
+
+				<div class='blog-heading'>
+					<h1 class='gradient__text'>
+						A lot is happening, <br /> We are blogging about it.
+					</h1>
+				</div>
+				<div class='blog-container'>
+
+				<div class='blog-container_groupB'>
+
+					<div class='blog-container_article-image'>
+							<img src="assets/blog02.png" alt='blog_image' />
+					</div>
+					<div class='blog-container_article-content'>
+						<div>
+							<p>Sep 26, 2021</p>
+							<h3>Open  AI is the future. Let us exlore how it is?</h3>
+						</div>
+							<p>Read Full Article</p>
+					</div>
+
+					<div class='blog-container_article-image'>
+							<img src="assets/blog03.png" alt='blog_image' />
+					</div>
+					<div class='blog-container_article-content'>
+						<div>
+							<p>Oct 26, 2021</p>
+							<h3>Open  AI is the future. Let us exlore how it is?</h3>
+						</div>
+							<p>Read Full Article</p>
+					</div>
+
+
+               		<div class='blog-container_article-image'>
+							<img src="assets/blog04.png" alt='blog_image' />
+					</div>
+					<div class='blog-container_article-content'>
+						<div>
+							<p>Nov 26, 2021</p>
+							<h3>Open  AI is the future. Let us exlore how it is?</h3>
+						</div>
+							<p>Read Full Article</p>
+					</div>
+
+
+					<div class='blog-container_article-image'>
+							<img src="assets/blog05.png" alt='blog_image' />
+					</div>
+					<div class='blog-container_article-content'>
+						<div>
+							<p>Dec 26, 2021</p>
+							<h3>Open  AI is the future. Let us exlore how it is?</h3>
+						</div>
+							<p>Read Full Article</p>
+					</div>
+				</div>
+			</div>
+	</div>
+
+<div class='cta'>
+			<div class='cta-content'>
+				<p>Request Early Access to Get Started</p>
+				<h3>Register Today & start exploring the endless possibilities.</h3>
+			</div>
+			<div class='cta-btn'>
+				<button type='button'>Get Started</button>
+			</div>
+</div>
+
+<div id="contact">
+	<div class="map"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">fitness tracker</a></iframe></div>
+	<div class="contact_form">
+		<h1 class="gradient__text">Contact</h1>
+		<form class="contactForm">
+			<input type="text" placeholder="Your Name"/>
+			<input type="email" placeholder="Your email" />
+			<textarea placeholder="Your message.."></textarea>
+			<input type="submit" value="Send"/>
+		</form>
+	</div>
+</div>
+
+	<div id="footer">
+		<div class='footer section__padding'>
+					
+				<div class='footer-links'>
+					<div class='footer-links_logo'>
+						<img src="assets/AI World.png" alt='gpt3_logo' />
+						<p>
+							Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved
+						</p>
+						<div class="social_logo">
+							<a href="#"><i class="fab fa-facebook"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-snapchat"></i></a>
+						</div>
+					</div>
+					<div class='footer-links_div'>
+						<h4>Links</h4>
+						<p>Overons</p>
+						<p>Social Media</p>
+						<p>Counters</p>
+						<p>Contact</p>
+					</div>
+					<div class='footer-links_div'>
+						<h4>Company</h4>
+						<p>Terms & Conditions </p>
+						<p>Privacy Policy</p>
+						<p>Contact</p>
+					</div>
+					<div class='footer-links_div'>
+						<h4>Get in touch</h4>
+						<p>Crechterwoord K12 182 DK Alknjkcb</p>
+						<p>085-132567</p>
+						<p>info@payme.net</p>
+					</div>
+				</div>
+
+				<div class='footer-copyright'>
+					<p>@2021 AI World. All rights reserved.</p>
+				</div>
+			</div>
+	</div>
+	<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
